@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const spotsLeft = details.max_participants - details.participants.length;
 
-        // 参加者リストを作成
+        // Create participants list
         let participantsHTML = "";
         if (details.participants.length > 0) {
           participantsHTML = `
